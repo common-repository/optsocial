@@ -1,0 +1,159 @@
+.qt_popup_overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    margin-top: 0px;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 100000;
+}
+
+#qt_popup_popup {
+    margin: 0;
+    padding: 0;
+}
+
+#qt_popup_popup.qt-popup-display-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: 0;
+    padding: 0;
+
+    margin: 0 auto;
+    cursor: default;
+    display: none;
+    z-index: 10000000;
+}
+
+#qt_popup_popup #qt_popup_popup_inner {
+    float: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#qt_popup_popup .qt-popup-body {
+    margin: 0;
+    padding: 25px;
+}
+
+#qt_popup_popup .qt_popup_err {
+    background: rgba(255,0,0,.8);
+    color: rgba(255,255,255,1);
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    padding: 3px;
+    display:block;
+    text-align:center;
+}
+
+#qt_popup_popup .qt_popup_shadow {
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
+}
+
+#qt_popup_popup .qt_popup_header{
+    margin: 0;
+    padding: 10px;
+}
+
+#qt_popup_popup .qt_popup_prefooter{
+    margin: 0;
+    padding: 10px;
+}
+
+#qt_popup_popup .qt_popup_footer{
+    margin: 0;
+    padding: 10px;
+}
+
+#qt_popup_popup .qt_popup_bg {
+    margin: 0;
+    padding: 0;
+    min-height:100px;
+}
+
+#qt_popup_popup .qt_popup_img_all {
+    width:100%;
+}
+
+#qt_popup_popup #qt-popup-title {
+    font-size: 2em;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#qt_popup_popup #qt-popup-titlex {
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: bold;
+    color:#fff;
+   text-shadow:
+
+       3px 3px 0 #a40112,
+     -1px -1px 0 #a40112,  
+      1px -1px 0 #a40112,
+      -1px 1px 0 #a40112,
+       1px 1px 0 #a40112;
+}
+
+#qt_popup_popup #qt-popup-top-seal {
+    float:left;
+    margin-top:-100px;
+    margin-left:-100px;
+    width: 200px;
+    height: 200px;
+    border: 5px;
+    z-index: 200000 !important;     
+}
+
+#qt_popup_popup .qt-popup-close-button { 
+    font-family: Verdana, Geneva, sans-serif; 
+    font-size: 1em; font-weight: bold; 
+    margin-left:99%;
+    margin-bottom:15px;
+    width: 1.4em;
+    line-height: 1.1em;
+    text-align:center;
+    color: #666; 
+    display: block; text-decoration: none; 
+    border: 2px solid #666; 
+    padding: 0px 3px 0px 3px; 
+    cursor: pointer;
+    -webkit-animation: qt-popup-fadein 4s;
+       -moz-animation: qt-popup-fadein 4s;
+        -ms-animation: qt-popup-fadein 4s;
+         -o-animation: qt-popup-fadein 4s;
+            animation: qt-popup-fadein 4s;
+}
+@keyframes qt-popup-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes qt-popup-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes qt-popup-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes qt-popup-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes qt-popup-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (max-width: 760px) {
+    #qt_popup_popup.qt-popup-display-content{
+        top: 0;
+    }
+}

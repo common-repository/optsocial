@@ -1,0 +1,37 @@
+#qt_popup_popup .qt_popup_gp {
+    /* Size and position */
+    width: 100%;
+    height: 2.6em;
+
+    color: #fff;
+    background: #d34836;
+
+    margin: 10px 0;
+    padding: 0;
+
+    /* Styles */
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+    cursor: pointer;
+
+    /* Font styles */
+    font-size: 1em;
+    line-height: 2.6em; /* Same as height */
+
+    text-align: center;
+    font-weight: bold;
+
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+
+}
+
+#qt_popup_popup .qt_popup_gp a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#qt_popup_popup .qt_popup_gp a:hover {
+    color: #fff;
+}

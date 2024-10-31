@@ -1,0 +1,16 @@
+OptSocial Lite Wide::
+
+[qtpopup]
+[qtcol span=12] [qttitle tag="h2"]Introducing OptSocial PopUp Plugin[/qttitle] [/qtcol]
+[qtcol span=6] [qtvdo id="ED0zaEbzASA"] [/qtcol]
+[qtcol span=5 offset=1] [qtfb] [qtgp] [/qtcol]
+[/qtpopup]
+
+OptSocial Lite::
+
+[qtpopup]
+[qtcol span=11] [qtfb] [qtgp] [/qtcol]
+[/qtpopup]
+[qtpopup_prefooter]
+[qtcol] [qtoptinlt] [/qtcol]
+[/qtpopup_prefooter]

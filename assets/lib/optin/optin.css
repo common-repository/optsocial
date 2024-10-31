@@ -1,0 +1,29 @@
+#qt_popup_popup .qtinput-con {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#qt_popup_popup .qtinput-btn-con {
+    margin: 5px;
+    padding: 0;
+
+}
+
+#qt_popup_popup .qtinput-text {
+    margin: 0;
+    padding: 5px;
+    width: 100%; height: 40px;
+}
+
+#qt_popup_popup .qtinput-btn {
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    height: 40px;
+    cursor: pointer;
+}

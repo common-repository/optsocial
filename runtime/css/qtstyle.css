@@ -1,0 +1,157 @@
+/*
+PlugIn: SunSet Framework QtStyles
+Author: VantCo
+Website: http://www.vantco.com/
+*/
+
+#qtcontent {
+	min-height: 20em;
+	text-align: center;
+	/*rgba(255,255,255,.3);*/
+	font-size: 1.1em;
+	font-weight: 400;
+}
+#qtcontent h2 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 2.2em;
+	font-weight: 400;
+	text-decoration: underline;
+}
+#qtcontent p {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 1em;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+#qtaside {
+	text-align: center;
+	background: rgba(255,255,255,.8);
+	color: #000;
+}
+
+.qtcontainer {
+	width: 100%;
+	margin: 0 auto; 
+}
+
+.qtcontainer:after,
+.qtbrick:after,
+.qtrow:after, 
+.qtcol:after, 
+.qtclr:after, 
+.qtgroup:after { 
+	content: ""; 
+	display: table; 
+	clear: both; 
+}
+
+.qtrow { padding-bottom:0em; }
+			
+.qtcol {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+/* ALIGN */
+
+.qtcenter {
+	margin: 0 auto;
+}
+
+.qtpull-left{
+    float: left;
+}
+.qtpull-right{
+    float: right;
+}
+
+
+/* MICRO CLEARFIX HACK */
+.qtcf:before, .qtcf:after {content:"";display:table} /* For modern browsers */
+.qtcf:after {clear:both}
+
+.qtresp {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.qtresp img{
+    margin:0;
+    padding:0;
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
+
+.qttext-center{
+	text-align:center;
+}
+
+.qttext-justify{
+	text-align:justify;
+}
+
+.qtsp {
+    padding: 10px;
+}
+.qtsm {
+    margin: 10px;
+}
+
+@media ( min-width : 760px ) {
+
+	.qtspan1{width:8.333%;}
+	.qtspan2{width:16.667%;}
+	.qtspan3{width:25%;}
+	.qtspan4{width:33.333%;}
+	.qtspan5{width:41.667%;}
+	.qtspan6{width:50%;}
+	.qtspan7{width:58.333%;}
+	.qtspan8{width:66.667%;}
+	.qtspan9{width:75%;}
+	.qtspan10{width:83.333%;}
+	.qtspan11{width:91.667%;}
+	.qtspan12{width:100%;}
+
+	.qtoffset1{margin-left:8.333%;}
+	.qtoffset2{margin-left:16.667%;}
+	.qtoffset3{margin-left:25%;}
+	.qtoffset4{margin-left:33.333%;}
+	.qtoffset5{margin-left:41.667%;}
+	.qtoffset6{margin-left:50%;}
+	.qtoffset7{margin-left:58.333%;}
+	.qtoffset8{margin-left:66.667%;}
+	.qtoffset9{margin-left:75%;}
+	.qtoffset10{margin-left:83.333%;}
+	.qtoffset11{margin-left:91.667%;}
+	.qtoffset12{margin-left:100%;}
+
+	.qtgutters .qtcol {	margin-left: 2%; }
+	.qtgutters .qtcol:first-child { margin-left: 0; }
+	
+	.qtgutters .qtspan1 { width: 6.5%; }
+	.qtgutters .qtspan2 { width: 15.0%; }
+	.qtgutters .qtspan3 { width: 23.5%; }
+	.qtgutters .qtspan4 { width: 32.0%; }
+	.qtgutters .qtspan5 { width: 40.5%; }
+	.qtgutters .qtspan6 { width: 49.0%; }
+	.qtgutters .qtspan7 { width: 57.5%; }
+	.qtgutters .qtspan8 { width: 66.0%; }
+	.qtgutters .qtspan9 { width: 74.5%; }
+	.qtgutters .qtspan10 { width: 83.0%; }
+	.qtgutters .qtspan11 { width: 91.5%; }
+	.qtgutters .qtspan12 { width: 100%; }
+}
